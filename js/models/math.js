@@ -7,7 +7,7 @@ export default class Courses {
     let template = ""
     for (let i = 0; i < this.coursesArray.length; i++) {
       template += `
-          <div class="col-lg-6" onclick="change(${this.coursesArray[i].pdf})">
+          <div class="col-lg-6" onclick="change(${this.coursesArray[i].course})">
             <a class="portfolio-item" href="#pdflink">
               <div class="caption">
                 <div class="caption-content">

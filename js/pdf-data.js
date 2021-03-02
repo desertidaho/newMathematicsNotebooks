@@ -1,8 +1,6 @@
 export default class PdfData {
 
-    // 170 = `https://drive.google.com/file/d/1z-RZL3B5ZeGjmgluIIghCKY38A0DG8J1/preview`
-    // 175 = `https://drive.google.com/file/d/1-jVQMe_UJpKOmK43W3SGxesgc31vmdBD/preview`
-    // 2751 = `https://drive.google.com/file/d/1gv7b8gbX35o_EcyI9SJZ_luNFxy14tZM/preview`
+    // 2751 = `https://drive.google.com/file/d//preview`
     // 2752 = `https://drive.google.com/file/d/19yimVaYT8b7ygDoR1oVsy9BwjATJLWxW/preview`
     // 287 = `https://drive.google.com/file/d/11OnKjV_p8WmB9UEv0rXqoW7eup9Ejg2e/preview`
     // 301 = `https://drive.google.com/file/d/18zUwEuIOQcqktCXmJaGTN4dtAwCkva-1/preview`
@@ -37,8 +35,11 @@ export default class PdfData {
   pdfData() {
     let data =
         [
-            { course: 143, pdf: '1MczMsDICd\-Y9CLX3CDvVnBxuE\_uFL\_KY', title: "Math 143", description: "College Algebra" },
-            { course: 144, pdf: "1C6JgPUZ9Qsq6HhM665NQRq_58CkbW8zb", title: "Math 144", description: "Analytical Trigonomotry" }
+            { course: 143, title: "Math 143", description: "College Algebra" },
+            { course: 144, title: "Math 144", description: "Analytical Trigonomotry" },
+            { course: 170, title: "Math 170", description: "Calculus I" },
+            { course: 175, title: "Math 175", description: "Calculus II" },
+            { course: 2751, title: "Math 275", description: "Multivariable and Vector Calculus, part I" }
         ]
     return data
     } 

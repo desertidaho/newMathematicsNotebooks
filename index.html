@@ -143,10 +143,27 @@
   <script type="module" src="js/main.js"></script>
 
   <script>
-     function change(file) {
-       console.log(file)
-       document.getElementById('pdf').innerHTML = `<iframe src="https://drive.google.com/file/d/${file}/preview" height="1075px" width="90%"></iframe>`
+     function change(course) {
+      if (course == 143) {
+        course = "1MczMsDICd\-Y9CLX3CDvVnBxuE\_uFL\_KY"
       }
+      else if (course == 144) {
+        course = "1C6JgPUZ9Qsq6HhM665NQRq_58CkbW8zb"
+      }
+      else if (course == 170) {
+        course = "1z-RZL3B5ZeGjmgluIIghCKY38A0DG8J1"
+      }
+      else if (course == 175) {
+        course = "1-jVQMe_UJpKOmK43W3SGxesgc31vmdBD"
+      }
+      else if (course == 2751) {
+        course = "1gv7b8gbX35o_EcyI9SJZ_luNFxy14tZM"
+      }
+
+
+
+       document.getElementById('pdf').innerHTML = `<iframe src="https://drive.google.com/file/d/${course}/preview" height="1075px" width="90%"></iframe>`
+       }
   </script>
 
 </body>
